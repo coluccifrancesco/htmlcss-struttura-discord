@@ -75,10 +75,21 @@
 
 .container-salmon{
     background-color: var(--main-container-fourth-color);
-    width: 360px;
+    width: 33%;
     height: 100%;
 }
 
+.container-emerald{
+    background-color: var(--main-container-fifth-color);
+    height: 100%;
+    width: 16.6%;
+    border: 1px dashed white;
+}
+
+.container-light-green{
+    background-color: var(--footer-bottom-bg-color);
+    height: 80%;
+}
 
 /* header */
 header{
@@ -126,7 +137,6 @@ header{
 
 
 /* Main */
-
 .hero-container{
     width: 100%;
     height: 400px;
@@ -164,3 +174,25 @@ header{
 
 
 /* footer */
+.container-footer{
+    height: 110px;
+    border-top: 1px solid white ;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.light-green-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-light-green p,
+.container-light-green button{
+    background-color: var(--footer-bottom-elements-color);
+    padding: 5px 10px;
+}
