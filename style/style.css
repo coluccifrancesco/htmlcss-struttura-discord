@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --header-bg-color: #ADD8E6;
+    --header-sections-bg-color: #DAA520;
+
+    --main-heroimg-bg-color: #00008B;
+    --main-heroimg-color: #EE81EE;
+
+    --main-bg-color-first: #FFFFFF;
+    --main-bg-color-first: #D3D3D3;
+
+    --main-container-first-color-: #1C90FF;
+    --main-container-second-color-: #FEC0CA;
+    --main-container-third-color: #228B21;
+
+    --footer-bg-color: #23272A;
+   
+    --footer-container-first-color: #EF8080;
+    --footer-container-second-color: #20B1A9;
+   
+    --footer-bottom-bg-color: #7FFFD3;
+    --footer-bottom-elements-color: #F7B0BB;
+}
+
+/* background-color: var(--header-bg-color: #ADD8E6) */
