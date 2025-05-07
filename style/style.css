@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    min-width: 1200px;  /* solo per adesso */
+}
+
 :root{
     --header-bg-color: #ADD8E6;
     --header-sections-bg-color: #DAA520;
@@ -18,8 +22,9 @@
     --main-container-first-color-: #1C90FF;
     --main-container-second-color-: #FEC0CA;
     --main-container-third-color: #228B21;
-    --main-container-fourth-color: #EF8080;
-    --main-container-fifth-color: #20B1A9;
+    
+    --footer-container-first-color: #EF8080;
+    --footer-container-second-color: #20B1A9;
    
     --footer-bottom-bg-color: #7FFFD3;
     --footer-bottom-elements-color: #F7B0BB;
@@ -30,7 +35,7 @@
 
 /* jolly classes */
 .container-width{
-    min-width: 60%;
+    min-width: 65%;
 }
 
 .border{
@@ -38,7 +43,7 @@
 }
 
 .container-main-height-px{
-    height: 600px;
+    height: 500px;
 }
 
 .container-main-height-percent{
@@ -74,13 +79,13 @@
 }
 
 .container-salmon{
-    background-color: var(--main-container-fourth-color);
+    background-color: var(--footer-container-first-color);
     width: 33%;
     height: 100%;
 }
 
 .container-emerald{
-    background-color: var(--main-container-fifth-color);
+    background-color: var(--footer-container-second-color);
     height: 100%;
     width: 16.6%;
     border: 1px dashed white;
@@ -96,11 +101,11 @@ header{
     display: flex;
     justify-content: center;
     background-color: var(--header-bg-color);
-    height: 85px;
+    height: 75px;
 }
 
 .header-height{
-    height: 50px;
+    height: 55px;
 }
 
 .header-elements-container{
